@@ -145,7 +145,7 @@ We'll build the three child agents first, then the master.
      <img width="1783" height="796" alt="image" src="https://github.com/user-attachments/assets/c86ec1d5-8434-49d7-88b1-dc9026221b2b" />
 
 5. Result should be this or similar
-    <img width="1896" height="717" alt="image" src="https://github.com/user-attachments/assets/f1256a68-ee4f-4ec9-9e06-0bfaa187924d" />
+     <img width="1896" height="717" alt="image" src="https://github.com/user-attachments/assets/f1256a68-ee4f-4ec9-9e06-0bfaa187924d" />
 
 #### 3.1.3 Adding Behavior
 
@@ -284,7 +284,7 @@ We'll build the three child agents first, then the master.
      <img width="1804" height="809" alt="image" src="https://github.com/user-attachments/assets/d88fbe22-062d-40e8-8702-9a5c44af79b8" />
 
 3.Choose and add to the source`feasibility-checklist.pdf` (or `.docx`).
-     <img width="1757" height="780" alt="image" src="https://github.com/user-attachments/assets/890ec399-4bd1-4748-9304-a5a5cbac4c9b" />
+      <img width="1757" height="780" alt="image" src="https://github.com/user-attachments/assets/890ec399-4bd1-4748-9304-a5a5cbac4c9b" />
 
 4. Enter the following details and click Save:
 
