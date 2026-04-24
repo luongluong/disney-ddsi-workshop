@@ -281,10 +281,10 @@ We'll build the three child agents first, then the master.
     <img width="1114" height="735" alt="image" src="https://github.com/user-attachments/assets/4af25fe8-c0d0-4741-933c-609b297efdde" />
     <img width="1507" height="682" alt="image" src="https://github.com/user-attachments/assets/40b4b6bf-ca4e-4e4e-9a23-289b3a18f434" />
 2. Choose "Upload files"
-    <img width="1804" height="809" alt="image" src="https://github.com/user-attachments/assets/d88fbe22-062d-40e8-8702-9a5c44af79b8" />
+     <img width="1804" height="809" alt="image" src="https://github.com/user-attachments/assets/d88fbe22-062d-40e8-8702-9a5c44af79b8" />
 
 3.Choose and add to the source`feasibility-checklist.pdf` (or `.docx`).
-    <img width="1757" height="780" alt="image" src="https://github.com/user-attachments/assets/890ec399-4bd1-4748-9304-a5a5cbac4c9b" />
+     <img width="1757" height="780" alt="image" src="https://github.com/user-attachments/assets/890ec399-4bd1-4748-9304-a5a5cbac4c9b" />
 
 4. Enter the following details and click Save:
 
@@ -681,7 +681,7 @@ In this section, we will deploy the Decision Design Assistant along with its chi
     (This may applicable for some version, you may skip this )
     
 2. Click the **Deploy** button in the top-right corner.
-  <img width="1859" height="813" alt="image" src="https://github.com/user-attachments/assets/272b5f87-1095-46ca-961f-333ee5540093" />
+    <img width="1859" height="813" alt="image" src="https://github.com/user-attachments/assets/272b5f87-1095-46ca-961f-333ee5540093" />
 
 3. Click **Deploy** again in the bottom-right of the Pre-deployment summary page. It may take a few seconds.
    <img width="1794" height="808" alt="image" src="https://github.com/user-attachments/assets/fa275a73-865d-4345-a0e3-e2f0ac54b6f8" />
