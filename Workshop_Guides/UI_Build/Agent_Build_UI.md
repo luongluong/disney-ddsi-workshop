@@ -684,18 +684,18 @@ In this section, we will deploy the Decision Design Assistant along with its chi
     <img width="1859" height="813" alt="image" src="https://github.com/user-attachments/assets/272b5f87-1095-46ca-961f-333ee5540093" />
 
 3. Click **Deploy** again in the bottom-right of the Pre-deployment summary page. It may take a few seconds.
-   <img width="1794" height="808" alt="image" src="https://github.com/user-attachments/assets/fa275a73-865d-4345-a0e3-e2f0ac54b6f8" />
+    <img width="1794" height="808" alt="image" src="https://github.com/user-attachments/assets/fa275a73-865d-4345-a0e3-e2f0ac54b6f8" />
 4. Loading
-  <img width="1571" height="664" alt="image" src="https://github.com/user-attachments/assets/df74bacb-0b93-4c1d-8052-bd13a5dd4ffa" />
+    <img width="1571" height="664" alt="image" src="https://github.com/user-attachments/assets/df74bacb-0b93-4c1d-8052-bd13a5dd4ffa" />
 5. Should show "live"
-  <img width="1745" height="557" alt="image" src="https://github.com/user-attachments/assets/80b2e816-f113-48a6-a8a5-11f04c5fb1fc" />
+    <img width="1745" height="557" alt="image" src="https://github.com/user-attachments/assets/80b2e816-f113-48a6-a8a5-11f04c5fb1fc" />
 
 6. To test from the AI Chat window, click the **☰** hamburger menu and select **Chat**.
-  <img width="1351" height="763" alt="image" src="https://github.com/user-attachments/assets/5f189986-3cf0-4862-b6f5-6625546faf6f" />
-  <img width="1739" height="755" alt="image" src="https://github.com/user-attachments/assets/a4817994-bca8-4246-92aa-fb77a545da47" />
+    <img width="1351" height="763" alt="image" src="https://github.com/user-attachments/assets/5f189986-3cf0-4862-b6f5-6625546faf6f" />
+    <img width="1739" height="755" alt="image" src="https://github.com/user-attachments/assets/a4817994-bca8-4246-92aa-fb77a545da47" />
 
 7. Make sure your **Decision Design Assistant** is selected in the dropdown. You can now test your agent from the chat interface.
-  <img width="1615" height="647" alt="image" src="https://github.com/user-attachments/assets/d96216b0-01b1-421e-8606-f5dbeb070f19" />
+    <img width="1615" height="647" alt="image" src="https://github.com/user-attachments/assets/d96216b0-01b1-421e-8606-f5dbeb070f19" />
 
 [← Back to Table of contents](#table-of-contents)
 
