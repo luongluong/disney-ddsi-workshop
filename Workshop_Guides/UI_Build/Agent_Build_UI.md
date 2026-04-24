@@ -87,7 +87,7 @@ We'll build the three child agents first, then the master.
 #### 3.1.1 Creating the agent
 
 1. Go to the **☰** hamburger menu from the top left and select **Build**.
-  <img width="1848" height="857" alt="image" src="https://github.com/user-attachments/assets/4e132246-1b8b-4e50-8120-67b61e1ff369" />
+    <img width="1874" height="812" alt="image" src="https://github.com/user-attachments/assets/1ac49c9e-eb41-4b47-b6a7-a1e7da43522b" />
 
 2. On the Agent Builder page, click **Create agent +**.
     <img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/9d385a92-8a09-4cb6-9a54-65df860448ec" />
