@@ -690,11 +690,11 @@ In this section, we will deploy the Decision Design Assistant along with its chi
 5. Should show "live"
   <img width="1745" height="557" alt="image" src="https://github.com/user-attachments/assets/80b2e816-f113-48a6-a8a5-11f04c5fb1fc" />
 
-5. To test from the AI Chat window, click the **☰** hamburger menu and select **Chat**.
+6. To test from the AI Chat window, click the **☰** hamburger menu and select **Chat**.
   <img width="1351" height="763" alt="image" src="https://github.com/user-attachments/assets/5f189986-3cf0-4862-b6f5-6625546faf6f" />
   <img width="1739" height="755" alt="image" src="https://github.com/user-attachments/assets/a4817994-bca8-4246-92aa-fb77a545da47" />
 
-6. Make sure your **Decision Design Assistant** is selected in the dropdown. You can now test your agent from the chat interface.
+7. Make sure your **Decision Design Assistant** is selected in the dropdown. You can now test your agent from the chat interface.
   <img width="1615" height="647" alt="image" src="https://github.com/user-attachments/assets/d96216b0-01b1-421e-8606-f5dbeb070f19" />
 
 [← Back to Table of contents](#table-of-contents)
