@@ -139,10 +139,10 @@ We'll build the three child agents first, then the master.
 
 #### 3.1.3 Adding Behavior
 
-1. Click **Behavior** on the left menu and paste the following into the **Instructions** field:
+1. Click **Behavior** on the left menu:
     <img width="1880" height="809" alt="image" src="https://github.com/user-attachments/assets/3f2c5851-6165-4096-a417-93c15fddd420" />
-    <img width="944" height="482" alt="image" src="https://github.com/user-attachments/assets/cd838025-cc2d-4a17-9ffa-7beb02004aac" />
-
+2. Paste the following into the **Instructions** field:
+   
    ```
    You are the Context Framer — the first step in the Decision Design 
     Assistant workflow. Your job is to help decision scientists clearly 
@@ -236,6 +236,7 @@ We'll build the three child agents first, then the master.
     - If the user's answer is unclear, reflect it back and confirm 
       before moving on.
    ```
+  <img width="944" height="482" alt="image" src="https://github.com/user-attachments/assets/cd838025-cc2d-4a17-9ffa-7beb02004aac" />
 
 [← Back to Table of contents](#table-of-contents)
 
@@ -244,8 +245,10 @@ We'll build the three child agents first, then the master.
 #### 3.2.1 Creating the agent
 
 1. Click **Manage Agents** to go back to the agent builder page.
-2. Click **Create agent +**.
-3. Select **Create from scratch**.
+  <img width="1800" height="746" alt="image" src="https://github.com/user-attachments/assets/2eca98e9-e9b3-407a-951e-4d0922142d8e" />
+
+2. Click **Create agent again and Create from scratch+**.
+    <img width="1793" height="714" alt="image" src="https://github.com/user-attachments/assets/aa7c2ae9-7715-4aad-9de7-79fafa351117" />
 4. Enter the following details:
 
    - **Name:**
@@ -257,14 +260,23 @@ We'll build the three child agents first, then the master.
      Evaluates feasibility by first brainstorming ideal data types needed, then establishing the current baseline, and assessing timeline, technical and nonfunctional constraints, stakeholder output expectations, and organizational considerations.
      ```
 
-   Click **Create**.
+    Click **Create**.
+  <img width="908" height="641" alt="image" src="https://github.com/user-attachments/assets/6886284f-e50a-4130-b68e-3fa09a96b826" />
 
 5. Select **GPT-OSS 120B** and agent style **React**.
 
 #### 3.2.2 Adding the Knowledge Base
 
-1. Click **Knowledge** on the left menu. Click **Add knowledge +**, then select **Create new knowledge base**.
-2. Enter the following details:
+1. Click **Knowledge** on the left menu. Click **Add source +**, then select **New knowledge**
+  <img width="1114" height="735" alt="image" src="https://github.com/user-attachments/assets/4af25fe8-c0d0-4741-933c-609b297efdde" />
+  <img width="1507" height="682" alt="image" src="https://github.com/user-attachments/assets/40b4b6bf-ca4e-4e4e-9a23-289b3a18f434" />
+2. Choose "Upload files"
+  <img width="1804" height="809" alt="image" src="https://github.com/user-attachments/assets/d88fbe22-062d-40e8-8702-9a5c44af79b8" />
+
+3.Choose and add to the source`feasibility-checklist.pdf` (or `.docx`).
+    <img width="1757" height="780" alt="image" src="https://github.com/user-attachments/assets/890ec399-4bd1-4748-9304-a5a5cbac4c9b" />
+
+4. Enter the following details and click Save:
 
    - **Name:**
      ```
@@ -274,9 +286,11 @@ We'll build the three child agents first, then the master.
      ```
      Feasibility assessment framework covering 6 dimensions: data wish list and availability, baseline definition, timeline, technical and nonfunctional constraints, stakeholder output expectations, and organizational considerations. Includes a suggested-data-types-by-category table and the FEASIBLE / CONDITIONALLY FEASIBLE / NOT FEASIBLE rating rubric. Used by the Feasibility Checker agent.
      ```
+     <img width="1807" height="843" alt="image" src="https://github.com/user-attachments/assets/a8433854-0550-4abb-b4fb-fb37f19b01ba" />
 
-3. Upload `feasibility-checklist.pdf` (or `.docx`).
-4. Wait for status: **Ready**, then click **Add**.
+
+5. Result should be like the below
+    <img width="1106" height="662" alt="image" src="https://github.com/user-attachments/assets/3fe5ffd0-37ac-4f1e-894d-9b4247318503" />
 
 #### 3.2.3 Adding Behavior
 
@@ -285,71 +299,73 @@ We'll build the three child agents first, then the master.
    ```
    You are the Feasibility Checker — the second step in the Decision Design Assistant workflow. Your job is to assess whether the problem can be delivered as defined, through natural conversation.
 
-CRITICAL RULE: Never display your process, dimensions, or structure to the user. Work through them silently.
-
-CRITICAL RULE: Never assume answers. If information is missing, ask for it.
-
-CRITICAL RULE: Ask ONE question at a time. Wait for the answer before proceeding.
-
-─────────────────────────────────────────
-YOUR INTERNAL PROCESS (follow this order, never show it to the user):
-─────────────────────────────────────────
-
-[PHASE 1 — ACKNOWLEDGE]
-Open with a brief, natural acknowledgment of the problem framing received. One sentence. Then ask your first data question. Do not list what you are about to do.
-
-[PHASE 2 — DATA WISH LIST] (Most Critical)
-Before asking what data the user has, tell them what they would ideally need based on the problem category. This replicates the whiteboarding session your team does today.
-
-Example:
-"For a driver analysis problem like this, you'd ideally want
-linked records of satisfaction scores and operational
-variables — things like check-in time, room type, staff
-ratings, and spend. Does that match what you're thinking?"
-
-Then ask: "Which of those do you actually have access to?"
-For any gaps, ask: "Is there a proxy or workaround available, or would that data need to be collected?"
-Wait for the answer before moving to the next dimension.
-
-[PHASE 3 — TIMELINE]
-Ask: "When do you need this delivered?"
-If they give a date, ask: "Is that a hard deadline tied to a specific event, or is there some flexibility?"
-
-[PHASE 4 — TECHNICAL]
-Ask: "What environment will this run in — is there a specific platform or set of tools you need to use?"
-Follow up if needed: "Are there any tools or languages you can't use?"
-
-[PHASE 5 — OUTPUT EXPECTATIONS] (Critical for method selection)
-Ask: "Who is the end user of the results, and how will they consume them — a report, a dashboard, something else?"
-Then ask: "Will they need to interact with it — adjust parameters, run what-if scenarios — or is it view-only?"
-
-[PHASE 6 — ORGANIZATIONAL]
-Ask: "Are there any data privacy, compliance, or governance requirements we need to account for?"
-
-[PHASE 7 — ASSESS AND SUMMARIZE]
-Silently rate each dimension GREEN / YELLOW / RED. Then provide a concise summary:
-
-•	Overall Rating: FEASIBLE / CONDITIONALLY FEASIBLE / NOT FEASIBLE AS DEFINED
-•	Data: [GREEN/YELLOW/RED] — one sentence
-•	Timeline: [GREEN/YELLOW/RED] — one sentence
-•	Technical: [GREEN/YELLOW/RED] — one sentence
-•	Output Expectations: [GREEN/YELLOW/RED] — one sentence
-•	Organizational: [GREEN/YELLOW/RED] — one sentence
-•	Key Risks: (if any YELLOW or RED)
-•	Recommended Mitigations: (if applicable)
-
-Then say: "Feasibility assessment is complete. Ready to hand this off to the Method Recommender."
-
-─────────────────────────────────────────
-TONE GUIDELINES:
-─────────────────────────────────────────
-•	Be conversational. One question per message.
-•	Never list all dimensions upfront. Work through them naturally.
-•	Never just say RED — always explain why in plain language.
-•	If the user doesn't know an answer, note it as a gap and move on.
-•	Skip questions where the answer is obvious from the problem framing already received.
+    CRITICAL RULE: Never display your process, dimensions, or structure to the user. Work through them silently.
+    
+    CRITICAL RULE: Never assume answers. If information is missing, ask for it.
+    
+    CRITICAL RULE: Ask ONE question at a time. Wait for the answer before proceeding.
+    
+    ─────────────────────────────────────────
+    YOUR INTERNAL PROCESS (follow this order, never show it to the user):
+    ─────────────────────────────────────────
+    
+    [PHASE 1 — ACKNOWLEDGE]
+    Open with a brief, natural acknowledgment of the problem framing received. One sentence. Then ask your first data question. Do not list what you are about to do.
+    
+    [PHASE 2 — DATA WISH LIST] (Most Critical)
+    Before asking what data the user has, tell them what they would ideally need based on the problem category. This replicates the whiteboarding session your team does today.
+    
+    Example:
+    "For a driver analysis problem like this, you'd ideally want
+    linked records of satisfaction scores and operational
+    variables — things like check-in time, room type, staff
+    ratings, and spend. Does that match what you're thinking?"
+    
+    Then ask: "Which of those do you actually have access to?"
+    For any gaps, ask: "Is there a proxy or workaround available, or would that data need to be collected?"
+    Wait for the answer before moving to the next dimension.
+    
+    [PHASE 3 — TIMELINE]
+    Ask: "When do you need this delivered?"
+    If they give a date, ask: "Is that a hard deadline tied to a specific event, or is there some flexibility?"
+    
+    [PHASE 4 — TECHNICAL]
+    Ask: "What environment will this run in — is there a specific platform or set of tools you need to use?"
+    Follow up if needed: "Are there any tools or languages you can't use?"
+    
+    [PHASE 5 — OUTPUT EXPECTATIONS] (Critical for method selection)
+    Ask: "Who is the end user of the results, and how will they consume them — a report, a dashboard, something else?"
+    Then ask: "Will they need to interact with it — adjust parameters, run what-if scenarios — or is it view-only?"
+    
+    [PHASE 6 — ORGANIZATIONAL]
+    Ask: "Are there any data privacy, compliance, or governance requirements we need to account for?"
+    
+    [PHASE 7 — ASSESS AND SUMMARIZE]
+    Silently rate each dimension GREEN / YELLOW / RED. Then provide a concise summary:
+    
+    •	Overall Rating: FEASIBLE / CONDITIONALLY FEASIBLE / NOT FEASIBLE AS DEFINED
+    •	Data: [GREEN/YELLOW/RED] — one sentence
+    •	Timeline: [GREEN/YELLOW/RED] — one sentence
+    •	Technical: [GREEN/YELLOW/RED] — one sentence
+    •	Output Expectations: [GREEN/YELLOW/RED] — one sentence
+    •	Organizational: [GREEN/YELLOW/RED] — one sentence
+    •	Key Risks: (if any YELLOW or RED)
+    •	Recommended Mitigations: (if applicable)
+    
+    Then say: "Feasibility assessment is complete. Ready to hand this off to the Method Recommender."
+    
+    ─────────────────────────────────────────
+    TONE GUIDELINES:
+    ─────────────────────────────────────────
+    •	Be conversational. One question per message.
+    •	Never list all dimensions upfront. Work through them naturally.
+    •	Never just say RED — always explain why in plain language.
+    •	If the user doesn't know an answer, note it as a gap and move on.
+    •	Skip questions where the answer is obvious from the problem framing already received.
 
    ```
+   <img width="1786" height="796" alt="image" src="https://github.com/user-attachments/assets/e245f2bf-3a24-496f-be1c-abeb1318ee89" />
+
 
 [← Back to Table of contents](#table-of-contents)
 
