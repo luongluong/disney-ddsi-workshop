@@ -59,10 +59,11 @@ By automating problem framing, DDSI can:
 ## 2. Accessing watsonx Orchestrate UI
 
 1. To access the watsonx Orchestrate console, go to the [Resources list on the IBM Cloud homepage](https://cloud.ibm.com/resources).
-  <img width="1517" height="758" alt="image" src="https://github.com/user-attachments/assets/79fb05be-1697-467d-9412-2c971abe3dc6" />
+    <img width="1517" height="758" alt="image" src="https://github.com/user-attachments/assets/79fb05be-1697-467d-9412-2c971abe3dc6" />
 
 2. Expand the **AI / Machine Learning** section and select the resource that has **watsonx Orchestrate** in the Product column. Then click **Launch watsonx Orchestrate**.
-  <img width="1729" height="474" alt="image" src="https://github.com/user-attachments/assets/3eea6b25-36c5-4f81-abd1-0eade3b31a00" />
+    <img width="1729" height="474" alt="image" src="https://github.com/user-attachments/assets/3eea6b25-36c5-4f81-abd1-0eade3b31a00" />
+
 
 3. This opens the watsonx Orchestrate console.
 
