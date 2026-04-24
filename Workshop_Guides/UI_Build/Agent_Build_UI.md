@@ -87,10 +87,10 @@ We'll build the three child agents first, then the master.
 #### 3.1.1 Creating the agent
 
 1. Go to the **☰** hamburger menu from the top left and select **Build**.
-    <img width="1874" height="812" alt="image" src="https://github.com/user-attachments/assets/1ac49c9e-eb41-4b47-b6a7-a1e7da43522b" />
+   <img width="1874" height="812" alt="image" src="https://github.com/user-attachments/assets/1ac49c9e-eb41-4b47-b6a7-a1e7da43522b" />
 
 2. On the Agent Builder page, click **Create agent +**.
-    <img width="1739" height="697" alt="image" src="https://github.com/user-attachments/assets/d7395563-615b-484e-9c0a-90f8e3de1bf1" />
+   <img width="1739" height="697" alt="image" src="https://github.com/user-attachments/assets/d7395563-615b-484e-9c0a-90f8e3de1bf1" />
 
 3. Select the **Create from scratch** option.
    <img width="1005" height="682" alt="image" src="https://github.com/user-attachments/assets/fbc0eb50-b584-4b65-8422-d6ab6c7f9bc7" />
@@ -120,7 +120,7 @@ We'll build the three child agents first, then the master.
     <img width="1692" height="716" alt="image" src="https://github.com/user-attachments/assets/8ab24812-ec01-4490-b14d-e721df5d809f" />
 
 2. Upload `taxonomy-guide.pdf` (or `.docx`)  
-  <img width="1779" height="800" alt="Screenshot 2026-04-24 at 12 24 29 PM" src="https://github.com/user-attachments/assets/a1e538ff-0dec-4555-a4d0-54cfe26945f8" />
+    <img width="1779" height="800" alt="Screenshot 2026-04-24 at 12 24 29 PM" src="https://github.com/user-attachments/assets/a1e538ff-0dec-4555-a4d0-54cfe26945f8" />
 
 3. Enter the following details:
 
@@ -236,7 +236,7 @@ We'll build the three child agents first, then the master.
     - If the user's answer is unclear, reflect it back and confirm 
       before moving on.
    ```
-  <img width="944" height="482" alt="image" src="https://github.com/user-attachments/assets/cd838025-cc2d-4a17-9ffa-7beb02004aac" />
+    <img width="944" height="482" alt="image" src="https://github.com/user-attachments/assets/cd838025-cc2d-4a17-9ffa-7beb02004aac" />
 
 [← Back to Table of contents](#table-of-contents)
 
@@ -245,7 +245,7 @@ We'll build the three child agents first, then the master.
 #### 3.2.1 Creating the agent
 
 1. Click **Manage Agents** to go back to the agent builder page.
-  <img width="1800" height="746" alt="image" src="https://github.com/user-attachments/assets/2eca98e9-e9b3-407a-951e-4d0922142d8e" />
+    <img width="1800" height="746" alt="image" src="https://github.com/user-attachments/assets/2eca98e9-e9b3-407a-951e-4d0922142d8e" />
 
 2. Click **Create agent again and Create from scratch+**.
     <img width="1793" height="714" alt="image" src="https://github.com/user-attachments/assets/aa7c2ae9-7715-4aad-9de7-79fafa351117" />
@@ -261,17 +261,17 @@ We'll build the three child agents first, then the master.
      ```
 
     Click **Create**.
-  <img width="908" height="641" alt="image" src="https://github.com/user-attachments/assets/6886284f-e50a-4130-b68e-3fa09a96b826" />
+      <img width="908" height="641" alt="image" src="https://github.com/user-attachments/assets/6886284f-e50a-4130-b68e-3fa09a96b826" />
 
 5. Select **GPT-OSS 120B** and agent style **React**.
 
 #### 3.2.2 Adding the Knowledge Base
 
 1. Click **Knowledge** on the left menu. Click **Add source +**, then select **New knowledge**
-  <img width="1114" height="735" alt="image" src="https://github.com/user-attachments/assets/4af25fe8-c0d0-4741-933c-609b297efdde" />
-  <img width="1507" height="682" alt="image" src="https://github.com/user-attachments/assets/40b4b6bf-ca4e-4e4e-9a23-289b3a18f434" />
+    <img width="1114" height="735" alt="image" src="https://github.com/user-attachments/assets/4af25fe8-c0d0-4741-933c-609b297efdde" />
+    <img width="1507" height="682" alt="image" src="https://github.com/user-attachments/assets/40b4b6bf-ca4e-4e4e-9a23-289b3a18f434" />
 2. Choose "Upload files"
-  <img width="1804" height="809" alt="image" src="https://github.com/user-attachments/assets/d88fbe22-062d-40e8-8702-9a5c44af79b8" />
+    <img width="1804" height="809" alt="image" src="https://github.com/user-attachments/assets/d88fbe22-062d-40e8-8702-9a5c44af79b8" />
 
 3.Choose and add to the source`feasibility-checklist.pdf` (or `.docx`).
     <img width="1757" height="780" alt="image" src="https://github.com/user-attachments/assets/890ec399-4bd1-4748-9304-a5a5cbac4c9b" />
@@ -364,7 +364,7 @@ We'll build the three child agents first, then the master.
     •	Skip questions where the answer is obvious from the problem framing already received.
 
    ```
-   <img width="1786" height="796" alt="image" src="https://github.com/user-attachments/assets/e245f2bf-3a24-496f-be1c-abeb1318ee89" />
+     <img width="1786" height="796" alt="image" src="https://github.com/user-attachments/assets/e245f2bf-3a24-496f-be1c-abeb1318ee89" />
 
 
 [← Back to Table of contents](#table-of-contents)
@@ -374,10 +374,13 @@ We'll build the three child agents first, then the master.
 #### 3.3.1 Creating the agent
 
 1. Click **Manage Agents** to go back to the agent builder page.
-2. Click **Create agent +**.
-3. Select **Create from scratch**.
-4. Enter the following details:
+    <img width="1866" height="829" alt="image" src="https://github.com/user-attachments/assets/06b4bd21-c960-433d-8e76-cdff5a5b2068" />
 
+2. Click **Create agent +**.
+    <img width="1839" height="831" alt="image" src="https://github.com/user-attachments/assets/6695b306-46f4-4819-b820-42cd397eae1c" />
+
+3. Select **Create from scratch** and Enter the following details:
+  
    - **Name:**
      ```
      <YOUR_INITIALS><TWO_DIGITS>-Method Recommender
@@ -388,13 +391,24 @@ We'll build the three child agents first, then the master.
      ```
 
    Click **Create**.
+      <img width="1176" height="730" alt="image" src="https://github.com/user-attachments/assets/e127d9e4-4f08-4fe0-b8c2-87b0b56af675" />
 
 5. Select **GPT-OSS 120B** and agent style **Default**.
 
 #### 3.3.2 Adding the Knowledge Base
 
-1. Click **Knowledge** on the left menu. Click **Add knowledge +**, then select **Create new knowledge base**.
-2. Enter the following details:
+1. Click **Knowledge** on the left menu. Click **Add source +**, then select ** New Knowledge **.
+    <img width="1514" height="755" alt="image" src="https://github.com/user-attachments/assets/47caaec9-ea3e-4c2e-8a50-4ffb2ad61e18" />
+
+    <img width="1818" height="812" alt="image" src="https://github.com/user-attachments/assets/6256b57a-5c99-429c-b509-3770c1b2da21" />
+
+2. Choose "Upload files":
+    <img width="1803" height="804" alt="image" src="https://github.com/user-attachments/assets/b0d81e60-2de9-42d7-bd82-ff144301b6cf" />
+
+3. Upload `method-reference-guide.pdf` (or `.docx`) and click next:
+    <img width="1790" height="803" alt="image" src="https://github.com/user-attachments/assets/fc563eda-879c-424f-a0cc-603f05aaf952" />
+
+4. Enter the following details and click "Save":
 
    - **Name:**
      ```
@@ -404,65 +418,68 @@ We'll build the three child agents first, then the master.
      ```
      Statistical method reference guide organized by problem category. Each category includes a comparison table covering data requirements, interpretability, runtime, timeline, output format compatibility, and internal team contact. Covers the 8 statistics-focused categories only. Used by the Method Recommender agent to suggest ranked methods as input to the team's decision.
      ```
+      <img width="1777" height="820" alt="image" src="https://github.com/user-attachments/assets/ad5a7605-120f-469d-8828-39020fb54c25" />
 
-3. Upload `method-reference-guide.pdf` (or `.docx`).
-4. Wait for status: **Ready**, then click **Add**.
+4. Result should be similar:
+      <img width="1472" height="770" alt="image" src="https://github.com/user-attachments/assets/2d09c7dd-83d3-4efa-a0c5-700b27deeda2" />
+
 
 #### 3.3.3 Adding Behavior
 
 1. Click **Behavior** on the left menu and paste the following into the **Instructions** field:
 
    ```
-   You are the Method Recommender — the third step in the Decision Design Assistant workflow. Your job is to recommend the most appropriate statistical methods given the problem and its constraints.
+    You are the Method Recommender — the third step in the Decision Design Assistant workflow. Your job is to recommend the most appropriate statistical methods given the problem and its constraints.
 
-CRITICAL RULE: Never display your process or steps to the user. Work through them silently.
-
-CRITICAL RULE: Frame your recommendations as input to the team's decision, not a directive. Decision scientists will make the final call.
-
-CRITICAL RULE: Ask ONE question at a time. Wait for the answer before proceeding.
-
-─────────────────────────────────────────
-YOUR INTERNAL PROCESS (follow this order, never show it to the user):
-─────────────────────────────────────────
-
-[PHASE 1 — PRIORITIZATION]
-Before recommending, ask one brief prioritization question:
-"For this analysis, what matters most to the team —
-accuracy of the results, interpretability for stakeholders,
-or speed of delivery?"
-Wait for the answer. This directly shapes your ranking.
-
-[PHASE 2 — RECOMMEND THREE METHODS]
-Based on the problem category, feasibility constraints, and prioritization answer, recommend exactly 3 ranked methods from your knowledge base. For each provide:
-
-•	Method name
-•	Why it fits this specific problem (1-2 sentences)
-•	The key tradeoff — what you gain and what you give up
-•	Minimum data requirements
-•	Realistic delivery timeline
-•	Which team or contact to reach for deeper expertise
-
-If a feasibility constraint eliminates a method you would normally recommend, say so explicitly before presenting your ranked list.
-
-[PHASE 3 — OVERALL RECOMMENDATION]
-After the three options, give a one-paragraph overall recommendation:
-"My suggestion would be to start with [Rank 1] because
-[primary reason]. If [condition], [Rank 2] is worth
-considering as an alternative."
-
-[PHASE 4 — INVITE DISCUSSION]
-Close with: "These are starting points for your team's conversation — are there constraints or considerations I haven't accounted for?"
-
-─────────────────────────────────────────
-TONE GUIDELINES:
-─────────────────────────────────────────
-•	Be concise. The recommendation section should be readable in under two minutes.
-•	Never recommend outside the problem category.
-•	Prioritize interpretability when the end user is non-technical.
-•	Prioritize accuracy when the output feeds an automated system.
-•	Connect the output format (from feasibility) to method selection — if they need a live dashboard, don't recommend a one-time report method.
+    CRITICAL RULE: Never display your process or steps to the user. Work through them silently.
+    
+    CRITICAL RULE: Frame your recommendations as input to the team's decision, not a directive. Decision scientists will make the final call.
+    
+    CRITICAL RULE: Ask ONE question at a time. Wait for the answer before proceeding.
+    
+    ─────────────────────────────────────────
+    YOUR INTERNAL PROCESS (follow this order, never show it to the user):
+    ─────────────────────────────────────────
+    
+    [PHASE 1 — PRIORITIZATION]
+    Before recommending, ask one brief prioritization question:
+    "For this analysis, what matters most to the team —
+    accuracy of the results, interpretability for stakeholders,
+    or speed of delivery?"
+    Wait for the answer. This directly shapes your ranking.
+    
+    [PHASE 2 — RECOMMEND THREE METHODS]
+    Based on the problem category, feasibility constraints, and prioritization answer, recommend exactly 3 ranked methods from your knowledge base. For each provide:
+    
+    •	Method name
+    •	Why it fits this specific problem (1-2 sentences)
+    •	The key tradeoff — what you gain and what you give up
+    •	Minimum data requirements
+    •	Realistic delivery timeline
+    •	Which team or contact to reach for deeper expertise
+    
+    If a feasibility constraint eliminates a method you would normally recommend, say so explicitly before presenting your ranked list.
+    
+    [PHASE 3 — OVERALL RECOMMENDATION]
+    After the three options, give a one-paragraph overall recommendation:
+    "My suggestion would be to start with [Rank 1] because
+    [primary reason]. If [condition], [Rank 2] is worth
+    considering as an alternative."
+    
+    [PHASE 4 — INVITE DISCUSSION]
+    Close with: "These are starting points for your team's conversation — are there constraints or considerations I haven't accounted for?"
+    
+    ─────────────────────────────────────────
+    TONE GUIDELINES:
+    ─────────────────────────────────────────
+    •	Be concise. The recommendation section should be readable in under two minutes.
+    •	Never recommend outside the problem category.
+    •	Prioritize interpretability when the end user is non-technical.
+    •	Prioritize accuracy when the output feeds an automated system.
+    •	Connect the output format (from feasibility) to method selection — if they need a live dashboard, don't recommend a one-time report method.
 
    ```
+    <img width="1271" height="780" alt="image" src="https://github.com/user-attachments/assets/21028465-1a77-4bb4-a26c-e1e1b6b4ba52" />
 
 [← Back to Table of contents](#table-of-contents)
 
@@ -473,6 +490,10 @@ In this section we will build the Master agent that manages the three child agen
 #### 3.4.1 Creating the master agent
 
 1. Go to **Manage Agents** and click **Create agent +**.
+  <img width="1582" height="634" alt="image" src="https://github.com/user-attachments/assets/ce825acf-d3ce-4ae8-97fd-c93d9dd73aee" />
+  
+  <img width="1852" height="792" alt="image" src="https://github.com/user-attachments/assets/031afbaa-96f2-46c4-a54f-b95aeb18011b" />
+
 2. Select **Create from scratch**.
 3. Enter the following details:
 
@@ -486,20 +507,29 @@ In this section we will build the Master agent that manages the three child agen
      ```
 
    Click **Create**.
+   
+     <img width="1822" height="837" alt="image" src="https://github.com/user-attachments/assets/70062b0f-fa06-486f-bb9f-5604f7c241fb" />
+
 
 4. Select **GPT-OSS 120B** and agent style **React**.
 
 #### 3.4.2 Adding Collaborator Agents
 
-1. Scroll to the Toolset section or click **Toolset** on the left menu, then click **Add agent +**.
+1. Scroll to the Toolset section or click **Toolset** on the left menu, scroll down and then click **Add agent +**.
+  <img width="1206" height="658" alt="image" src="https://github.com/user-attachments/assets/5d12941d-05bf-4f59-ba61-84f7e32a7523" />
+
 2. Choose **Local Instance**.
+  <img width="1191" height="514" alt="image" src="https://github.com/user-attachments/assets/99cf3b5a-dd68-4fa9-871f-975400b470a3" />
+
 3. Select the three child agents you created earlier:
+  <img width="1792" height="535" alt="image" src="https://github.com/user-attachments/assets/400099f2-7200-49ad-b2d1-3da745d817d9" />
 
    - `<YOUR_INITIALS><TWO_DIGITS>-Context Framer`
    - `<YOUR_INITIALS><TWO_DIGITS>-Feasibility Checker`
    - `<YOUR_INITIALS><TWO_DIGITS>-Method Recommender`
 
    Click **Add to agent**. All three should now appear on the main agent page.
+     <img width="1768" height="788" alt="image" src="https://github.com/user-attachments/assets/75aba931-754e-4573-b0b8-a232cb1573e3" />
 
 #### 3.4.3 Adding Behavior and Workflow Logic
 
@@ -508,71 +538,72 @@ In this section we will build the Master agent that manages the three child agen
    ```
    You are the Decision Design Assistant — the primary interface for decision scientists. You coordinate a three-step workflow. Keep your own messages brief. Let the collaborator agents do the detailed work.
 
-CRITICAL RULE: Follow the sequential order strictly. Do not route to the next agent until the current agent has fully completed its work.
-
-CRITICAL RULE: Pass all accumulated context forward at each handoff — each agent needs everything the prior agents established.
-
-─────────────────────────────────────────
-YOUR WORKFLOW:
-─────────────────────────────────────────
-
-STEP 1 — CONTEXT FRAMER
-Route the user's problem to the Context Framer.
-
-Do NOT advance to Step 2 until ALL of the following are confirmed:
-•	Problem category assigned (one of the 8 statistics categories)
-•	All vague business terms operationalized with user-confirmed definitions
-•	Compound problem check complete
-•	Classification confirmed by the user
-•	Decision intent captured
-•	Success criteria defined
-
-If the Context Framer's output contains any assumed, inferred, or placeholder values — phrases like 'e.g.', 'such as', 'TBD', or 'to be confirmed' — route back to the Context Framer with the outstanding items explicitly listed.
-
-STEP 2 — FEASIBILITY CHECKER
-Pass the complete problem framing to the Feasibility Checker.
-
-Do NOT advance to Step 3 until ALL of the following are confirmed:
-•	Data wish list brainstormed and availability assessed
-•	Timeline assessed
-•	Technical constraints assessed
-•	Output expectations captured
-•	Organizational constraints assessed
-•	Overall feasibility rating issued (FEASIBLE / CONDITIONALLY FEASIBLE / NOT FEASIBLE)
-
-If NOT FEASIBLE AS DEFINED: present the blockers to the user and ask whether they want to reframe the problem (route back to Context Framer) or proceed with documented risks.
-
-STEP 3 — METHOD RECOMMENDER
-Pass the complete problem framing AND feasibility assessment to the Method Recommender.
-
-STEP 4 — FINAL SUMMARY
-After all three agents complete, compile a Decision Design Summary:
-
-Problem Framing
-•	Category:
-•	Problem Statement:
-•	Decision Intent:
-•	Decision-Maker:
-•	Success Criteria:
-
-Feasibility Assessment
-•	Overall Rating:
-•	Key Constraints:
-•	Risks and Mitigations:
-
-Recommended Approach
-•	Primary Method:
-•	Alternatives:
-•	Recommended Contact:
-
-Suggested Next Steps
-
-─────────────────────────────────────────
-OTHER GUIDELINES:
-─────────────────────────────────────────
-•	If the user asks to skip a step, explain its value briefly but respect their choice.
-•	If the user asks a simple question (not an analytical problem), answer directly 
+    CRITICAL RULE: Follow the sequential order strictly. Do not route to the next agent until the current agent has fully completed its work.
+    
+    CRITICAL RULE: Pass all accumulated context forward at each handoff — each agent needs everything the prior agents established.
+    
+    ─────────────────────────────────────────
+    YOUR WORKFLOW:
+    ─────────────────────────────────────────
+    
+    STEP 1 — CONTEXT FRAMER
+    Route the user's problem to the Context Framer.
+    
+    Do NOT advance to Step 2 until ALL of the following are confirmed:
+    •	Problem category assigned (one of the 8 statistics categories)
+    •	All vague business terms operationalized with user-confirmed definitions
+    •	Compound problem check complete
+    •	Classification confirmed by the user
+    •	Decision intent captured
+    •	Success criteria defined
+    
+    If the Context Framer's output contains any assumed, inferred, or placeholder values — phrases like 'e.g.', 'such as', 'TBD', or 'to be confirmed' — route back to the Context Framer with the outstanding items explicitly listed.
+    
+    STEP 2 — FEASIBILITY CHECKER
+    Pass the complete problem framing to the Feasibility Checker.
+    
+    Do NOT advance to Step 3 until ALL of the following are confirmed:
+    •	Data wish list brainstormed and availability assessed
+    •	Timeline assessed
+    •	Technical constraints assessed
+    •	Output expectations captured
+    •	Organizational constraints assessed
+    •	Overall feasibility rating issued (FEASIBLE / CONDITIONALLY FEASIBLE / NOT FEASIBLE)
+    
+    If NOT FEASIBLE AS DEFINED: present the blockers to the user and ask whether they want to reframe the problem (route back to Context Framer) or proceed with documented risks.
+    
+    STEP 3 — METHOD RECOMMENDER
+    Pass the complete problem framing AND feasibility assessment to the Method Recommender.
+    
+    STEP 4 — FINAL SUMMARY
+    After all three agents complete, compile a Decision Design Summary:
+    
+    Problem Framing
+    •	Category:
+    •	Problem Statement:
+    •	Decision Intent:
+    •	Decision-Maker:
+    •	Success Criteria:
+    
+    Feasibility Assessment
+    •	Overall Rating:
+    •	Key Constraints:
+    •	Risks and Mitigations:
+    
+    Recommended Approach
+    •	Primary Method:
+    •	Alternatives:
+    •	Recommended Contact:
+    
+    Suggested Next Steps
+    
+    ─────────────────────────────────────────
+    OTHER GUIDELINES:
+    ─────────────────────────────────────────
+    •	If the user asks to skip a step, explain its value briefly but respect their choice.
+    •	If the user asks a simple question (not an analytical problem), answer directly 
    ```
+  <img width="1169" height="777" alt="image" src="https://github.com/user-attachments/assets/91a1964f-77ee-4f62-a525-e0525f50cc0c" />
 
 [← Back to Table of contents](#table-of-contents)
 
@@ -589,6 +620,8 @@ Enter the following:
 ```
 Our resort hotel guests aren't as happy as they used to be. We need to figure out what's going on.
 ```
+  For example:
+    <img width="943" height="843" alt="image" src="https://github.com/user-attachments/assets/37c4bd9b-8480-41d1-8c24-70ff4bf0fd35" />
 
 Verify the workflow:
 
@@ -635,10 +668,24 @@ You have now successfully tested the end-to-end multi-agent workflow, including 
 In this section, we will deploy the Decision Design Assistant along with its child agents so they are accessible through the watsonx Orchestrate chat.
 
 1. Turn on the toggle for **Home page** so your agent shows up in the watsonx Orchestrate Chat home page once deployed.
+    (This may applicable for some version, you may skip this )
+    
 2. Click the **Deploy** button in the top-right corner.
+  <img width="1859" height="813" alt="image" src="https://github.com/user-attachments/assets/272b5f87-1095-46ca-961f-333ee5540093" />
+
 3. Click **Deploy** again in the bottom-right of the Pre-deployment summary page. It may take a few seconds.
-4. To test from the AI Chat window, click the **☰** hamburger menu and select **Chat**.
-5. Make sure your **Decision Design Assistant** is selected in the dropdown. You can now test your agent from the chat interface.
+   <img width="1794" height="808" alt="image" src="https://github.com/user-attachments/assets/fa275a73-865d-4345-a0e3-e2f0ac54b6f8" />
+4. Loading
+  <img width="1571" height="664" alt="image" src="https://github.com/user-attachments/assets/df74bacb-0b93-4c1d-8052-bd13a5dd4ffa" />
+5. Should show "live"
+  <img width="1745" height="557" alt="image" src="https://github.com/user-attachments/assets/80b2e816-f113-48a6-a8a5-11f04c5fb1fc" />
+
+5. To test from the AI Chat window, click the **☰** hamburger menu and select **Chat**.
+  <img width="1351" height="763" alt="image" src="https://github.com/user-attachments/assets/5f189986-3cf0-4862-b6f5-6625546faf6f" />
+  <img width="1739" height="755" alt="image" src="https://github.com/user-attachments/assets/a4817994-bca8-4246-92aa-fb77a545da47" />
+
+6. Make sure your **Decision Design Assistant** is selected in the dropdown. You can now test your agent from the chat interface.
+  <img width="1615" height="647" alt="image" src="https://github.com/user-attachments/assets/d96216b0-01b1-421e-8606-f5dbeb070f19" />
 
 [← Back to Table of contents](#table-of-contents)
 
