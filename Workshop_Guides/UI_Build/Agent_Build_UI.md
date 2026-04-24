@@ -119,17 +119,20 @@ We'll build the three child agents first, then the master.
 
 1. Click **Knowledge** on the left menu. Click **Add knowledge +**, then select **Create new knowledge base**.
     <img width="1148" height="711" alt="image" src="https://github.com/user-attachments/assets/cf80a6a7-3459-44e3-9619-562041b27a4f" />
+
     
     <img width="1516" height="762" alt="image" src="https://github.com/user-attachments/assets/9e342508-7f6e-4ec5-baf8-0b6aab1e1548" />
-    
+
+
     <img width="1766" height="808" alt="image" src="https://github.com/user-attachments/assets/8a8ed8a0-7a3b-46c3-bef2-e20e41a32511" />
+
     
     <img width="1692" height="716" alt="image" src="https://github.com/user-attachments/assets/8ab24812-ec01-4490-b14d-e721df5d809f" />
 
-2. Upload `taxonomy-guide.pdf` (or `.docx`)  
+1. Upload `taxonomy-guide.pdf` (or `.docx`)  
     <img width="1779" height="800" alt="Screenshot 2026-04-24 at 12 24 29 PM" src="https://github.com/user-attachments/assets/a1e538ff-0dec-4555-a4d0-54cfe26945f8" />
 
-3. Enter the following details:
+2. Enter the following details:
 
    - **Name:**
      ```
