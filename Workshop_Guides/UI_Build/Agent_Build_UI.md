@@ -90,10 +90,10 @@ We'll build the three child agents first, then the master.
     <img width="1874" height="812" alt="image" src="https://github.com/user-attachments/assets/1ac49c9e-eb41-4b47-b6a7-a1e7da43522b" />
 
 2. On the Agent Builder page, click **Create agent +**.
-    <img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/9d385a92-8a09-4cb6-9a54-65df860448ec" />
+    <img width="1874" height="812" alt="image" src="https://github.com/user-attachments/assets/9d385a92-8a09-4cb6-9a54-65df860448ec" />
 
 3. Select the **Create from scratch** option.
-    <img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/3030caf4-c1da-4118-bb1d-7ef96297eb66" />
+    <img width="1874" height="812" alt="image" src="https://github.com/user-attachments/assets/3030caf4-c1da-4118-bb1d-7ef96297eb66" />
 
 4. Enter the following details:
 
@@ -107,7 +107,7 @@ We'll build the three child agents first, then the master.
      ```
 
    Click **Create**.
-   <img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/9a7748fb-2650-4793-ac79-bde83d91ae93" />
+   <img width="1874" height="812" alt="image" src="https://github.com/user-attachments/assets/9a7748fb-2650-4793-ac79-bde83d91ae93" />
 
 
 5. On the next screen, select the **Large Language Model** and the **agent style**. For this agent, select **GPT-OSS 120B** and style **React**.
